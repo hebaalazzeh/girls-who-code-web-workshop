@@ -1,0 +1,185 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7eef5; /* Light pink background */
+}
+
+nav {
+    background-color: #f48fb1; /* Pink navbar background */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-title {
+    color: #fff; /* White navbar title */
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #fff; /* White navbar links */
+    text-decoration: none;
+}
+
+header {
+    background-color: #f48fb1; /* Pink header background */
+    text-align: center;
+    padding: 100px 0;
+    color: #fff; /* White header text */
+    margin-top: 80px; /* Adjusted to accommodate fixed navbar */
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 80px; /* Adjusted to accommodate fixed navbar */
+}
+
+footer {
+    background-color: #f48fb1; /* Pink footer background */
+    text-align: center;
+    padding: 20px 0;
+    color: #fff; /* White footer text */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* contact button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f6b5cb; /* Pink button background */
+    color: #fff; /* White button text */
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn:hover {
+    background-color: #d81b60; /* Darker pink on hover */
+}
+
+/* Portfolio section styles */
+#portfolio {
+    background-color: #fce4ec; /* Light pink background */
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px; /* Round corners of photos */
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+    color: #333; /* Dark text color */
+}
+
+.portfolio-item p {
+    color: #666; /* Medium-dark text color */
+}
+
+/* About Me section styles */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+#about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;/* Adjust the width as needed */
+    height: auto;
+    border-radius: 20%; /* Round corners of the image */
+    margin-bottom: 20px; /* Add some space below the image */
+}
+.about-info {
+    flex: 1;
+    text-align: left;
+}
+
+.about-info p {
+    margin-bottom: 10px;
+}
+
+/* Contact form styles */
+form {
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f48fb1; /* Pink button background */
+    color: #fff; /* White button text */
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #d81b60; /* Darker pink on hover */
+}
