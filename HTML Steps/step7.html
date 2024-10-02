@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Content Goes Here -->
+
+    <!--Navigation section-->
+    <nav>
+      <h1 class="navbar-title">Heba Alazzeh</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!--Header Section-->
+
+    <header>
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm a passionate web developer ready to showcase my skills.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </header>
+
+    <!--About Section-->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="images/heba.png" alt="photo of me" />
+      <p>
+        I'm a student with a passion for creating beautiful and functional
+        websites.
+      </p>
+      <p>Currently a first year at CSM studying Computer Science.</p>
+    </section>
+
+    <!--Portfolio Section-->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-container">
+        <div class="portfolio-item">
+          <img src="images/example.png" alt="Project 1" />
+          <h3>Project 1</h3>
+          <p>Description of Project 1.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/example.png" alt="Project 2" />
+          <h3>Project 2</h3>
+          <p>Description of Project 2.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/example.png" alt="Project 3" />
+          <h3>Project 3</h3>
+          <p>Description of Project 3.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to get in touch with me!</p>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <!-- hCaptcha Spam Protection -->
+        <div class="h-captcha" data-captcha="true"></div>
+        <button type="submit">Submit Form</button>
+      </form>
+    </section>
+
+    <!--Footer-->
+    <!--you can customize this further adding in social media etc!-->
+    <footer>
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!--<footer>: Defines a footer section usually containing copyright or contact information.
+<p>&copy; 2024 My Portfolio. All rights reserved.</p>: Text indicating the copyright notice.
+-->

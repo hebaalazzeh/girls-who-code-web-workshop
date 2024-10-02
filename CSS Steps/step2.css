@@ -1,0 +1,43 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7eef5; /* Light pink background */
+}
+
+/*navbar styles */
+nav {
+    background-color: #f48fb1; /* Pink navbar background */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-title {
+    color: #fff; /* White navbar title */
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #fff; /* White navbar links */
+    text-decoration: none;
+}
+
+/*Styles the navigation bar (nav) with a pink background, padding, center-aligned text, fixed position at the top of the page, and full width.
+Styles the navbar title (.navbar-title) with white color and removes any margin.
+Removes default list styling and padding from unordered lists (ul).
+Styles list items (ul li) to display inline with a margin of 0 on top and bottom and 10px on the left and right.
+Styles anchor elements within list items (ul li a) with white color and no text decoration.

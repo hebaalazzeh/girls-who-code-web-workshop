@@ -1,0 +1,51 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7eef5; /* Light pink background */
+}
+
+/*navbar styles */
+nav {
+    background-color: #f48fb1; /* Pink navbar background */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-title {
+    color: #fff; /* White navbar title */
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #fff; /* White navbar links */
+    text-decoration: none;
+}
+
+
+/* header styles */
+
+header {
+    background-color: #f48fb1; /* Pink header background */
+    text-align: center;
+    padding: 100px 0;
+    color: #fff; /* White header text */
+    margin-top: 80px; /* Adjusted to accommodate fixed navbar */
+}
+
+/*Styles the header section (header) with a pink background, center-aligned text, padding of 100px on top and bottom, and white text color.
+Sets a margin-top of 80px to create space between the header and the fixed navbar.
